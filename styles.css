@@ -90,3 +90,22 @@ header img {
   height: 8px;
   background-image: url("assets/icons/down-arrow.svg");
 }
+
+main {
+  width: 100%;
+  height: auto;
+  background-color: var(--just-white);
+}
+.main-exchange-container {
+  width: 100%;
+  height: auto;
+  padding-top: 59px;
+  padding-bottom: 64px;
+  text-align: center;
+}
+.main-exchange-container--title {
+  width: 90%;
+  min-width: 288px;
+  max-width: 900px;
+  margin: 0 auto;
+}
