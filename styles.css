@@ -103,9 +103,29 @@ main {
   padding-bottom: 64px;
   text-align: center;
 }
+.main-exchange-container .background-img {
+  width: 195px;
+  height: 195px;
+  margin: 0 auto;
+  background: url("assets/imgs/bitcoin.svg") center/cover no-repeat;
+}
 .main-exchange-container--title {
   width: 90%;
   min-width: 288px;
   max-width: 900px;
   margin: 0 auto;
+  margin-top: 40px;
+}
+.main-exchange-container h2 {
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 2.6rem;
+  color: var(--warm-black);
+}
+.main-exchange-container p {
+  margin-top: 24px;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+  color: #757575;
 }
