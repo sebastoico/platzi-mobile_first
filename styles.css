@@ -94,7 +94,6 @@ header img {
 main {
   width: 100%;
   height: auto;
-  background-color: var(--just-white);
 }
 .main-exchange-container {
   width: 100%;
@@ -102,6 +101,7 @@ main {
   padding-top: 59px;
   padding-bottom: 64px;
   text-align: center;
+  background-color: var(--off-white);
 }
 .main-exchange-container .background-img {
   width: 195px;
@@ -128,4 +128,38 @@ main {
   font-weight: 500;
   line-height: 1.8rem;
   color: #757575;
+}
+.main-currency-table {
+  width: 70%;
+  min-width: 197px;
+  max-width: 500px;
+  height: 360px;
+  margin: 0 auto;
+}
+.main-currency-table .currency-table--title {
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 2.3rem;
+  color: #ff9536;
+}
+.currency-table--container {
+  font-family: "Inter", sans-serif;
+  width: 90%;
+  min-width: 197px;
+  max-width: 300px;
+  height: 159px;
+  margin: 0 auto;
+  margin-top: 12px;
+}
+.currency-table--container table {
+  width: 100%;
+  height: 100%;
+}
+.currency-table--container td {
+  width: 50%;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1.9rem;
+  color: #b5b0ac;
+  background-color: var(--just-white);
 }
