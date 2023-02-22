@@ -26,6 +26,7 @@
 html {
   font-size: 62.5%;
   font-family: "DM Sans", sans-serif;
+  background-color: var(--off-white);
 }
 
 header {
@@ -102,7 +103,6 @@ main {
   padding-top: 59px;
   padding-bottom: 64px;
   text-align: center;
-  background-color: var(--off-white);
 }
 .main-exchange-container .background-img {
   width: 195px;
@@ -345,6 +345,31 @@ main {
   font-weight: 700;
   line-height: 2.6rem;
   color: var(--just-white);
+}
+
+.main-plans-container {
+  width: 100%;
+  min-width: 320px;
+  padding: 64px 0;
+  text-align: center;
+}
+.plans--title {
+  width: 90%;
+  min-width: 288px;
+  height: auto;
+  margin: 0 auto;
+}
+.plans--title h2 {
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 2.6rem;
+}
+.plans--title p {
+  padding-top: 24px;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+  color: #757575;
 }
 
 @media (min-width: 768px) {
