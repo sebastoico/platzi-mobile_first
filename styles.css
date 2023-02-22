@@ -416,6 +416,7 @@ main {
   font-weight: 700;
   line-height: 6.3rem;
   letter-spacing: -0.08em;
+  color: var(--grey);
 }
 .plan-card--price span {
   position: absolute;
@@ -424,6 +425,11 @@ main {
   font-size: 1.2rem;
   font-weight: 500;
   line-height: 1.5rem;
+}
+.price--recommended {
+  color: black;
+}
+.price--recommended span {
   color: #363636;
 }
 .plan-card--saving {
@@ -433,6 +439,35 @@ main {
   font-weight: 500;
   line-height: 1.5rem;
   color: #757575;
+}
+.plan-card--ca {
+  width: 150px;
+  height: 48px;
+  margin-top: 16px;
+  background-color: var(--just-white);
+  border: 2px solid var(--grey);
+  border-radius: 4px;
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 1.8rem;
+  color: var(--grey);
+}
+.plan-card--ca span {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  margin-left: 4px;
+  background: url("assets/icons/arrow-right.svg") center/cover no-repeat;
+  vertical-align: middle;
+}
+.ca--recommended {
+  background-color: var(--off-white);
+  border: 2px solid var(--bitcoin-orange);
+  color: var(--warm-black);
+}
+.ca--recommended span {
+  filter: brightness(0) saturate(100%) invert(61%) sepia(51%) saturate(1329%)
+    hue-rotate(348deg) brightness(99%) contrast(95%);
 }
 
 @media (min-width: 768px) {
