@@ -93,6 +93,7 @@ header img {
 
 main {
   width: 100%;
+  min-width: 320px;
   height: auto;
 }
 .main-exchange-container {
@@ -243,4 +244,40 @@ main {
   font-weight: 400;
   line-height: 1.5rem;
   color: var(--warm-black-1);
+}
+
+.main-product-detail {
+  position: relative;
+  width: 100%;
+  height: auto;
+  padding: 64px 16px 47px;
+  text-align: center;
+  background-color: var(--warm-black);
+}
+.product-detail--batata-logo {
+  position: absolute;
+  top: -12px;
+  left: calc(50% - 20px);
+  width: 40px;
+  height: 24px;
+  background: url("assets/icons/batata.svg") center/cover no-repeat;
+}
+.product-detail--title {
+  width: 90%;
+  min-width: 288px;
+  height: auto;
+  margin: 0 auto;
+}
+.product-detail--title h2 {
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 2.6rem;
+  color: var(--just-white);
+}
+.product-detail--title p {
+  margin-top: 24px;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+  color: #808080;
 }
