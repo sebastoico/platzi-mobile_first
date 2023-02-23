@@ -418,17 +418,18 @@ main {
 }
 .plan-card--price {
   position: relative;
-  margin-top: 8px;
+  margin: 8px auto 0;
   font-family: "Inter", sans-serif;
   font-size: 5.2rem;
   font-weight: 700;
   line-height: 6.3rem;
   letter-spacing: -0.08em;
   color: var(--grey);
+  width: min-content;
 }
 .plan-card--price span {
   position: absolute;
-  left: calc(50% - 40px);
+  left: -20%;
   top: 8.2px;
   font-size: 1.2rem;
   font-weight: 500;
@@ -478,7 +479,35 @@ main {
     hue-rotate(348deg) brightness(99%) contrast(95%);
 }
 
-
+footer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 150px;
+  padding: 40px 20%;
+  background-color: var(--bitcoin-orange);
+}
+.footer-left {
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.footer-left li {
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+  list-style: none;
+}
+.footer-left a {
+  text-decoration: none;
+  color: var(--just-white);
+}
+.footer-right {
+  width: 63px;
+  height: 50px;
+  align-self: center;
+}
 
 @media (min-width: 768px) {
   .product-cards--container {
